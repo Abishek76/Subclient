@@ -12,6 +12,7 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:text="View Client"
+        android:textColor="@color/colorAccent"
         android:layout_marginLeft="140dp"
         android:id="@+id/viewbtn"/>
 
