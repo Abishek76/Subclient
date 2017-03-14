@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="40dp">
+
+
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/viewclientname"
+        />
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/viewstate"
+        />
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/viewcounty"
+        />
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/viewcity"
+        />
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/viewemailid"
+        />
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/okBtn"
+        android:text="OK"/>
+</LinearLayout>
